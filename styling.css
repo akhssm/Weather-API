@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('c:/Users/manda/OneDrive/Desktop/images.jpeg'); /* Replace 'your-image-path.jpg' with the actual path to your background image */
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent background image from repeating */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /*Center horizontally*/
+    align-items: center; /*Center vertically*/
+    height: 100vh;
+    text-align: center;/*Center text content horizontally within the body*/
+}
+
+.container {
+    max-width: 600px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Add a semi-transparent white background to the content container */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /*Apply a box-shadow for a subtle visual effect*/
+    border-radius: 5px; /* Round the corners of the cintainer*/
+}
+
+h1 {
+    color: #333; /*Set the text color to a shade of gray*/
+}
+
+.search-container {
+    margin: 20px 0; /*Add margin space above and below the search container*/
+}
+/* Style the text input for entering the city name*/
+input[type="text"] {
+    padding: 10px;
+    width: 70%; /*Set the width of the input to 70% of its container*/
+    border: 1px solid #ccc; /*Add a 1px border with a light pray color*/
+    border-radius: 5px; /*Round the input's corners*/
+}
+/*Style the search button*/
+button {
+    padding: 10px 20px;
+    background-color: #007BFF;  /*Set the button's background color*/
+    color: #ffffff;  /*Set the text color to white*/
+    border: none;  /*Remove the button border*/
+    border-radius: 5px; /*Round the button's corners*/
+    cursor: pointer; /*Change the cursor to a pointer on hover
+}
+
+.weather-display {
+    margin-top: 20px; /*Add margin space above the weather information*/
+}
+
+#weather-data {
+    text-align: center; /*Center-aligh the text context within the weather data container*/
+}

@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-image: url('c:/Users/manda/OneDrive/Desktop/images.jpeg'); /* Replace 'your-image-path.jpg' with the actual path to your background image */
+    background-image: url(image.jpg); /* Replace 'your-image-path.jpg' with the actual path to your background image */
     background-size: cover; /* Cover the entire viewport */
     background-position: center; /* Center the background image */
     background-repeat: no-repeat; /* Prevent background image from repeating */
